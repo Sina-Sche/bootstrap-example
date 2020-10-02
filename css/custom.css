@@ -9912,4 +9912,9 @@ body {
   opacity: 0.8;
 }
 
+.my-4 {
+  float: right;
+  position: right;
+}
+
 /*# sourceMappingURL=custom.css.map */
