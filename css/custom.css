@@ -9907,4 +9907,9 @@ body {
   text-align: center;
 }
 
+.jumbotron {
+  background-color: #607d8b;
+  opacity: 0.8;
+}
+
 /*# sourceMappingURL=custom.css.map */
