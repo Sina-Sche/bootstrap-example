@@ -3,7 +3,7 @@
 $body-bg: #000;
 $body-color: white;
 $primary: rgb(11, 8, 12);
-$font-family-base: Arial;
+$font-family-base: Candara;
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -15,4 +15,8 @@ body {
 
 .carousel .item {
   height: 150px;
+}
+.card-title {
+  font-weight: bold;
+  color: darkcyan;
 }
