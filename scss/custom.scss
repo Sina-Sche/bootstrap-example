@@ -1,7 +1,8 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: rgb(85, 110, 133);
-$body-color: white;
+$body-bg: #f4f2f3;
+$background-opacity: 0.9;
+$body-color: #33364d;
 $primary: rgb(11, 8, 12);
 $font-family-base: Candara;
 // Include all Bootstrap
@@ -11,6 +12,7 @@ $font-family-base: Candara;
 
 body {
   margin: 20px;
+  font-size: 10px;
 }
 
 .carousel .item {
@@ -18,10 +20,13 @@ body {
 }
 .card-title {
   font-weight: bold;
-  color: rgb(167, 194, 194);
+  color: #64766a;
   text-align: center;
 }
 .jumbotron {
-  background-color: grayscale($color: #628a7d);
+  background-color: white;
   opacity: 0.8;
+}
+.nav-link {
+  font-size: 25px;
 }

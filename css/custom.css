@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: white;
+  color: #33364d;
   text-align: left;
-  background-color: #556e85;
+  background-color: #f4f2f3;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -472,7 +472,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #556e85;
+  background-color: #f4f2f3;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -1646,7 +1646,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: white;
+  color: #33364d;
 }
 .table th,
 .table td {
@@ -1691,7 +1691,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: white;
+  color: #33364d;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2045,7 +2045,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: white;
+  color: #33364d;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2378,7 +2378,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: white;
+  color: #33364d;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2396,7 +2396,7 @@ textarea.form-control {
   }
 }
 .btn:hover {
-  color: white;
+  color: #33364d;
   text-decoration: none;
 }
 .btn:focus, .btn.focus {
@@ -2962,7 +2962,7 @@ input[type=button].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: white;
+  color: #33364d;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3700,13 +3700,13 @@ input[type=button].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #556e85, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
+  box-shadow: 0 0 0 1px #f4f2f3, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #556e85, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
+  box-shadow: 0 0 0 1px #f4f2f3, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #556e85, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
+  box-shadow: 0 0 0 1px #f4f2f3, 0 0 0 0.2rem rgba(11, 8, 12, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -3874,8 +3874,8 @@ input[type=button].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #556e85;
-  border-color: #dee2e6 #dee2e6 #556e85;
+  background-color: #f4f2f3;
+  border-color: #dee2e6 #dee2e6 #f4f2f3;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4965,7 +4965,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: white;
+  color: #33364d;
   background-color: #e9ecef;
 }
 
@@ -5747,7 +5747,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: white;
+  color: #33364d;
 }
 
 .carousel {
@@ -9755,7 +9755,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-body {
-  color: white !important;
+  color: #33364d !important;
 }
 
 .text-muted {
@@ -9895,6 +9895,7 @@ h3 {
 }
 body {
   margin: 20px;
+  font-size: 10px;
 }
 
 .carousel .item {
@@ -9903,13 +9904,17 @@ body {
 
 .card-title {
   font-weight: bold;
-  color: #a7c2c2;
+  color: #64766a;
   text-align: center;
 }
 
 .jumbotron {
-  background-color: #767676;
+  background-color: white;
   opacity: 0.8;
+}
+
+.nav-link {
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=custom.css.map */
