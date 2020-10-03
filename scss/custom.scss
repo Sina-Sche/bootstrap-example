@@ -1,6 +1,6 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
+$body-bg: rgb(85, 110, 133);
 $body-color: white;
 $primary: rgb(11, 8, 12);
 $font-family-base: Candara;
@@ -18,10 +18,10 @@ body {
 }
 .card-title {
   font-weight: bold;
-  color: darkcyan;
+  color: rgb(167, 194, 194);
   text-align: center;
 }
 .jumbotron {
-  background-color: #607d8b;
+  background-color: grayscale($color: #628a7d);
   opacity: 0.8;
 }
