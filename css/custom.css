@@ -9949,4 +9949,17 @@ body {
   font-size: 25px;
 }
 
+i.far,
+i.fas,
+i.fab {
+  margin-left: 2em;
+  padding-left: -5em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=custom.css.map */
