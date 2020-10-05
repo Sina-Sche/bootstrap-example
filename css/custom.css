@@ -9930,7 +9930,7 @@ body {
 }
 
 .fab {
-  padding-right: 2em;
+  padding-right: 1em;
   font-size: 40px;
   width: 40px;
   text-align: center;
@@ -9944,7 +9944,7 @@ body {
 }
 
 .fa {
-  padding-right: 2em;
+  padding-right: 1em;
   font-size: 40px;
   width: 40px;
   text-align: center;
@@ -9979,6 +9979,7 @@ i.fab {
   opacity: 0.9;
   justify-content: left;
   position: relative;
+  body-color: black;
 }
 
 .inner_footer {
@@ -10029,6 +10030,15 @@ i.fab {
   display: block;
   width: 100%;
   padding-bottom: 5px;
+}
+
+.inner-footer .footer_third .fa {
+  padding-right: 1em;
+  font-size: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 /*# sourceMappingURL=custom.css.map */
